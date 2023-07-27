@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css" rel="stylesheet" />
+    
+    <!-- MDB -->
+    
+        <!-- src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.jsz" -->
+    <title>API</title>
+</head>
+<style>
+    body{
+        background-image: url(./tree-g01627f0fe_1280.jpg);
+        background-size: 100%;
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    #divbody{
+        text-decoration: wheat;
+    }
+    #semi-div{
+        width: 40%;
+        background-color: wheat;
+    }
+</style>
+<body>
+  
+    <!-- <div style="background-image: url(./39d8d2a77ee47e11c3c977c7c21c38a8.jpg); width: 2500px; height: 1200px; background-repeat: no-repeat;"> -->
+<div class="container-fluid mx-auto" id="div-body">
+    <h1 class="text-center text-decoration-underline text-light">WEATHER FORECAST</h1> <br><br><br>
+  
+    <div class="form-outline">
+        <input type="text" id="inp" class="form-control"  style="outline: 3px solid wheat;height: 70px; background-color: wheat;"/>
+        <label class="form-label" for="inp">Enter city name</label>
+    </div> <br><br>
+    <button onclick="add()" class="btn btn-dark"> search</button>
+ <div class="container-fluid mx-auto bg-light " id="semi-div">
+
+     <h1 id="display2" style="text-decoration: wheat;"></h1> 
+ <h2 id="display1" style="text-decoration: wheat;"></h2>
+ <h3 id="display3" style="text-decoration: wheat;"></h3>
+ </div>
+
+</div>
+<script src="./index.js"></script>
+</body>
+</html>
